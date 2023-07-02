@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+	}
+	
+.container{
+	width:30%;
+	background-color:#adad85;
+	margin:auto;
+	text-align:center;
+	
+}
+img {
+	border-radius:50%;
+	width:40%;
+	border:2px solid white;
+	text-align:center;
+	margin-top:30px;
+	box-shadow:5px 5px 10px 5px;
+}
+h2 {
+	color:#99004d;
+	padding:10px;
+}
+	
+.followers{
+	color:#000099;
+	padding:20px;
+	display:inline;
+}
+.following{
+	color:#000099;
+	padding:20px;
+	display:inline;
+}
+
+.likes{
+	color:#000099;
+	padding:20px;
+	display:inline;
+	
+}
+.post{	
+	color:#000099;
+	padding:20px 0px;
+	display:inline;
+	padding-right:10%;
+	
+	
+}
+ .icon{
+	
+	margin:20px;
+	
+}
+
+.instagram{
+	text-decoration:none;
+	color: #000000;
+	font-size:35px;
+	border-radius:50%;
+	padding:0px 30px;
+	
+}
+.mail{
+	text-decoration:none;
+	color:#000000;
+	font-size:35px;
+	padding:20px;
+}
+.cell{
+	text-decoration:none;
+	color: #000000;
+	font-size:35px;
+	padding:20px;
+}
+.facebook{
+	text-decoration:none;
+	color:#000000;
+	font-size:35px;
+	padding:20px;
+}
+.follow a{
+	color:#e6005c;
+
+	display:block;
+	margin:10px;
+	width:30%;
+	padding:0px 10px;
+	padding-left:20px;
+	text-decoration:none;
+	margin-right:20px;
+}
+
+.message a{
+	text-decoration:none;
+	color: #e6005c;
+	
+	width:30%;
+	padding:0px 10px;
+	margin:10px;
+	display:block;
+}
+button{
+	margin:30px;
+	border:2px solid violet;
+}
+	
+a:link{
+	color:red;
+}
+
+	
+
+a:hover,h2:hover,button:hover{
+	background-color:cadetblue;
+}
+a:active{
+	color:blue;
+}
+.followers:hover{
+	color:yellow
+}
+.following:hover{
+	color:yellow
+}
+.post:hover{
+	color:yellow
+}
+.likes:hover{
+	color:yellow
+}
+img:active{
+	padding:10px;
+}
+h2:active{
+	
+		color:#990099;
+}
+.instagram:hover{
+	color:#ff751a
+}
+.mail:hover{
+	color:#999966;
+}
+.cell:hover{
+	color:#e60000;
+}
+.facebook:hover{
+	color:#0000e6
+}
